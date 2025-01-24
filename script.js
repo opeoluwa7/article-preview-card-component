@@ -139,7 +139,7 @@ function largeScreenToggle() {
         shareBtn.style.backgroundColor = desaturatedDb;
         shareIcon.setAttribute("fill", white);
         shareBtn.style.position = "fixed";
-        shareBtn.style.right = "170px";
+        shareBtn.style.right = "220px";
         share.style.display = 'flex';
         share.style.alignItems = 'center';
         share.style.marginLeft = "5px";
@@ -149,7 +149,7 @@ function largeScreenToggle() {
         socialIcons.style.paddingLeft = '50px';
         socialIcons.style.paddingRight = '50px';
         socialIcons.style.position = 'fixed'
-        socialIcons.style.right = "70px";
+        socialIcons.style.right = "120px";
         socialIcons.style.borderRadius = '10px';
         socialIcons.style.gap = '20px';
     }
@@ -179,7 +179,7 @@ function veryLargeScreenToggle() {
         shareBtn.style.backgroundColor = desaturatedDb;
         shareIcon.setAttribute("fill", white);
         shareBtn.style.position = "fixed";
-        shareBtn.style.right = "200px";
+        shareBtn.style.right = "410px";
         share.style.display = 'flex';
         share.style.position = "relative";
         share.style.alignItems = 'center';
@@ -190,7 +190,7 @@ function veryLargeScreenToggle() {
         socialIcons.style.paddingLeft = '50px';
         socialIcons.style.paddingRight = '50px';
         socialIcons.style.position = 'fixed'
-        socialIcons.style.right = "70px";
+        socialIcons.style.right = "290px";
         socialIcons.style.borderRadius = '10px';
         socialIcons.style.gap = '20px';
     }
