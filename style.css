@@ -47,7 +47,6 @@ body {
 }
 
 .body-contents {
-    width: 100%;
     margin-inline: auto;
     padding-top: 3rem;
     display: flex;
@@ -162,11 +161,14 @@ h2 {
 
     .active {
         background-color: transparent;
-        position: relative;
+        width: 80% !important;    
     }
 
     .active2 {
         flex-direction: column-reverse; 
+        position: relative;
+        left: 4.5rem;
+        bottom: 0.5rem;
     }
 
     .active3 {
