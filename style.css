@@ -79,13 +79,13 @@ p,
     display: flex;
     align-items: center;
     gap: 1rem;
-    justify-content: flex-start;  
+    justify-content: flex-start;
 }
 
 #socialIcons {
     display: none;
     gap: 1.1rem;
-    color: var(red);
+    color: var(--white)
 }
 
 #socialIcons span {
@@ -117,15 +117,17 @@ h2 {
     font-size: clamp(0.85rem, 2vw, 0.9rem);
     font-weight: 700;
     color: var(--verydarkgrayishblue);
+    white-space: nowrap;
 }
 
 .titles {
     display: flex;
     flex-direction: column;
+    align-self: start;
 }
-
 .titles p {
     opacity: 0.7;
+    width: 100%;
 }
 
 .active {
@@ -161,11 +163,11 @@ h2 {
 
     .active {
         background-color: transparent;
-        width: 80% !important;    
+        width: 80% !important;
     }
 
     .active2 {
-        flex-direction: column-reverse; 
+        flex-direction: column-reverse;
         position: relative;
         left: 4.5rem;
         bottom: 0.5rem;
@@ -182,4 +184,8 @@ h2 {
         align-items: center;
         border-radius: 10px;
     }
+    .titles p{
+        width: 100%;
+    }
+ 
 }
